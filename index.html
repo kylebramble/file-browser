@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/pico.min.css">
+    <title>MI349: File Browser Landing</title>
+
+    <script src="https://kit.fontawesome.com/facb791ba8.js" crossorigin="anonymous"></script>
+
+    <style>
+      main { text-align: left; }
+      table { margin: 1rem 0; }
+      .file-icon { text-align: center; width: 3rem; }
+      .filesize { white-space: nowrap; }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>File Browser</h1>
+      <p>This table lists the files currently in the repository.</p>
+
+      <table role="grid">
+        <thead>
+          <tr>
+            <th class="file-icon">Icon</th>
+            <th>File name (link)</th>
+            <th>Type</th>
+            <th>Size</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="file-icon"><i class="fa-solid fa-file-pdf"></i>
+            <td><a href="pngimage.png">pngimage.png</a></td>
+            <td>PNG image</td>
+            <td class="filesize">2 KB</td>
+          </tr>
+          <tr>
+            <td class="file-icon"><i class="fa-solid fa-file-lines"></i></td>
+            <td><a href="plaintext.txt">plaintext.txt</a></td>
+            <td>Plain text</td>
+            <td class="filesize">1 KB</td>
+          </tr>
+          <tr>
+            <td class="file-icon"><i class="fa-solid fa-file-pdf"></i></td>
+            <td><a href="pdfdoc.pdf">pdfdoc.pdf</a></td>
+            <td>PDF</td>
+            <td class="filesize">1 KB</td>
+          </tr>
+          <tr>
+            <td class="file-icon"><i class="fa-solid fa-file-code"></i></td>
+            <td><a href="htmltest.html">htmltest.html</a></td>
+            <td>HTML</td>
+            <td class="filesize">1 KB</td>
+          </tr>
+          <tr>
+            <td class="file-icon"><i class="fa-solid fa-brackets-curly"></i></td>
+            <td><a href="whosthisjason.json">whosthisjason.json</a></td>
+            <td>JSON</td>
+            <td class="filesize">1 KB</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Browser observations</h2>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </main>
+  </body>
+</html>
